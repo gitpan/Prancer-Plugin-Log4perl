@@ -4,7 +4,7 @@ use strict;
 use warnings FATAL => 'all';
 
 use version;
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 use Prancer::Plugin;
 use parent qw(Prancer::Plugin Exporter);
@@ -89,10 +89,21 @@ the same terms as Perl itself.
 
 =over
 
-=item L<Prancer>
-=item L<Log::Log4perl>
-=item L<Log::Dispatch>
-=item L<Log::Dispatch::Screen>
+=item
+
+L<Prancer>
+
+=item
+
+L<Log::Log4perl>
+
+=item
+
+L<Log::Dispatch>
+
+=item
+
+L<Log::Dispatch::Screen>
 
 =back
 
